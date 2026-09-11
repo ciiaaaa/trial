@@ -18,9 +18,9 @@ print('Distance: ',distance,'km')
 
 #basecost
 
-base_cost = weight + distance
-weight = weight * 2.50 
-distance = distance * 0.15
+base_cost = a + b
+a = weight * 2.50 
+b = distance * 0.15
 
 if is_Fragile == True :
 	print('The item is fragile')
