@@ -37,8 +37,7 @@ elif is_International == True :
 elif is_Internation == False :
 	print('Local package')
 
-
-elif weight <=2.0 or distance <=100 and is_Express == False and is_International == False :
+elif weight <=2.0 and distance <=100 and is_Express == False and is_International == False :
 	print('You have free shipping')
 	total = 0.00
 
@@ -51,4 +50,6 @@ elif is_Express == True or is_International == True and weight > 20:
 elif weight > 30 or distance > 1000 :
 	total =  base_cost + 30
 else:
-	print('Your Total is = $',total)
+	total = base_cost
+
+print('Your total is = $', total)
